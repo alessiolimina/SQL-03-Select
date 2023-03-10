@@ -69,11 +69,11 @@ public class Start {
             String surname3 = rs.getString("last_name");
             System.out.println("--------------------");
 
-            /** Repeating the ResultSet next() method: 'Repetita iuvant'! :-D */
+            /** Repeating the ResultSet next() method: */
             System.out.println("Printing fourth row:");
             rs.next();
 
-            /** Get the fourth name value from 'first_name' column using ResultSet method getString(), amd printing it */
+            /** Getting the fourth name value from 'first_name' column using ResultSet method getString(), amd printing it */
             String name4 = rs.getString("first_name");
             System.out.println("name 4: " + name4);
 
